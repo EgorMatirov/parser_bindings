@@ -5,7 +5,8 @@ It's a simple C++ application that links to Go library and calls Go code for cre
 It demonstrates amount of partial parsing available in Go and possibility to return C structs from Go code to communication between Go and C++ worlds.
 
 Input given to parser:
-```package main; var b int = 3 
+```
+package main; var b int = 3 
 func main(){
     a := b
 
